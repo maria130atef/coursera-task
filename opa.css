@@ -1,0 +1,165 @@
+*{
+	padding: 0;
+	margin:0;
+
+}
+body{
+	background-image: url("122.jpg");
+
+}
+header{
+    color: #aaa69d;
+	text-align: center;
+	
+	font-size: 300%;
+	font-family: 'Pacifico', cursive;
+	margin-top: 20px;
+}
+h1{
+	
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-size: 200%;
+	color: #3B3B98;
+
+}
+div{
+		background-color: #000000;
+    box-shadow: 2px 2px 2px 2px  #3B3B98;;
+    padding :10px 10px;
+    /*width: 30%;*/
+    display: inline-block;
+    margin: 10px 10px;
+    font-size: 150%;
+}
+div:hover {
+
+	background-color: #aaa69d;;
+	
+}
+p{
+	color: #aaa69d;
+	padding:10px 10px;
+	font-family: 'Roboto', sans-serif;
+}
+div:hover p{
+	color: #000000;
+}
+.chicken{
+	
+	width: 30%;
+}
+.beef{
+	width: 30%;
+}
+.suchi{
+	width:30%;
+}
+/*------------------------------------*/
+@media (min-width:992px){
+.chicken{
+	
+	width: 28%;
+}
+.beef{
+	width: 28%;
+}
+.suchi{
+	width:28%;
+}
+div{
+	display: inline-block;
+	padding: 1% 1%;
+	margin: 1% 1%;
+}
+}
+@media (min-width: 768px) and (max-width:991px ){
+	
+
+.chicken{
+	padding-right: 5%;
+	width: 40%;
+}
+.beef{padding-right: 5%;
+	width: 40%;
+}
+.suchi{
+	padding-right: 2%;
+	padding-left: 2%;
+	width:91%;
+
+}}
+@media (max-width:767px ){
+.chicken{
+	
+	width: 95%;
+}
+.beef{
+	width: 95%;
+}
+.suchi{
+	width:95%;
+}
+div{
+	display: inline-block;
+	padding: 1% 1%;
+	margin: 2% 1%;
+}
+}
+/*@media (min-width: 800px) and (max-width:1200px ){
+
+.theside{width:85%; }
+aside{padding-left: 20%;}
+.body {width: 100%;}
+.mainContent {width: 70%;
+padding-left: 20%}
+}
+@media (min-width: 600px) and (max-width:800px ){
+
+aside{padding-left: 20%;}
+.body {width: 100%;}
+.theside{width:85%; }
+.mainContent {width: 70%;
+padding-left: 20%
+}
+.mainHeader nav{
+	height: 120px;}
+}
+
+@media (min-width: 400px) and (max-width:600px ){
+
+.body {width: 100%;}
+.theside{width:85%; }
+.mainContent {width: 70%;padding-left: 20%}
+aside{padding-left: 20%;}
+
+.mainHeader nav{
+	height: 120px;}
+
+}
+
+@media (min-width: 300px) and (max-width:400px ){
+body {
+font-size: 60%}
+.body {width: 100%;}
+.theside{width:85%; }
+.mainContent {width: 70%;
+}
+.mainHeader nav{
+	height: 120px;
+
+}
+
+}
+@media (min-width: 200px) and (max-width:300px ){
+body {background-color: pink;
+font-size: 60%}
+.body {width: 100%;}
+.theside{width:85%; }
+.mainContent {width: 70%;
+}
+.mainHeader nav{
+	height: 200px;
+
+}
+*/
